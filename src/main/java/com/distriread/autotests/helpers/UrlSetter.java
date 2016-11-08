@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by nikita on 07.11.16.
  */
-public class UrlSetter extends WebDriverConfig {
+public class UrlSetter {
 
     private WebDriver driver;
 

@@ -1,4 +1,4 @@
-package com.distriread.autotests.tests.product;
+package com.distriread.autotests.product;
 
 import com.distriread.autotests.config.WebDriverConfig;
 import com.distriread.autotests.helpers.UrlSetter;
@@ -16,10 +16,10 @@ import java.io.IOException;
  */
 public class TestProduct extends WebDriverConfig {
 
-    UrlSetter urlSetter;
-    Product product;
-    CreateProduct createProduct;
-    JustCreatedProduct justCreatedProduct;
+    private UrlSetter urlSetter;
+    private Product product;
+    private CreateProduct createProduct;
+    private JustCreatedProduct justCreatedProduct;
 
 
     @Before
