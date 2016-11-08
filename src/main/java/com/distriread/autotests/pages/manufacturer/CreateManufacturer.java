@@ -2,7 +2,6 @@ package com.distriread.autotests.pages.manufacturer;
 
 import com.distriread.autotests.helpers.PropertyReader;
 import com.distriread.autotests.helpers.Waiter;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 

@@ -1,6 +1,5 @@
 package com.distriread.autotests.helpers;
 
-import com.distriread.autotests.config.WebDriverConfig;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
