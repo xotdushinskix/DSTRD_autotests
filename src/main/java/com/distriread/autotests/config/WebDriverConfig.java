@@ -19,7 +19,7 @@ public class WebDriverConfig {
     public void setUp() throws IOException {
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
-        driver.get("http://dev:secrinfo@vr1.bintime.com/");
+        driver.get("http://dev:q1w2e3r4@vr1.bintime.com/");
         Login login = new Login(driver);
         login.loginFunc();
     }
