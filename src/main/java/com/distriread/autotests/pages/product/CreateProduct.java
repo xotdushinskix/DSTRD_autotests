@@ -1,13 +1,20 @@
 package com.distriread.autotests.pages.product;
 
 import com.distriread.autotests.helpers.PropertyReader;
+import com.distriread.autotests.helpers.Searcher;
 import com.distriread.autotests.helpers.Waiter;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.InputStream;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by nikita on 08.11.16.
@@ -19,47 +26,44 @@ public class CreateProduct {
     protected InputStream inputStream;
     private final String PROP_NAME = "create_product.properties";
     protected PropertyReader prop;
+    private Searcher searcher;
 
 
     public CreateProduct(FirefoxDriver driver) {
         this.driver = driver;
         this.waiter = new Waiter(driver);
         this.prop = new PropertyReader(inputStream, PROP_NAME);
+        this.searcher = new Searcher(driver);
     }
 
 
 
     public void fillRequiredFieldsAndAddProduct(String mpn, String brandName, String productName, String productCategory,
-                                                String vendor1, String vendor2, int cost, int rrpExcValue, int prodStock,
-                                                String warehouseName) {
-        waiter.waitClickable(prop.xP_Val("cr.pr.moveAllVendors"));
+                                                String vendor1, String vendor2, String cost, String rrpExcValue) {
+        waiter.waitClickable(prop.xP_Val("cr.pr.saveButton"));
+
         driver.findElement(prop.xP_Val("cr.pr.mpnField")).sendKeys(mpn);
-        driver.findElement(prop.xP_Val("cr.pr.brandFieldSel2")).click();
-        driver.findElement(prop.xP_Val("cr.pr.brandInput")).sendKeys(brandName);
+        searcher.select2(prop.xP_Val("cr.pr.brandFieldSel2"), prop.xP_Val("cp.pr.brandInputS2"), brandName,
+                prop.xP_Val("cp.pr.brandS2Suggestion"));
 
-        waiter.waitClickable(prop.xP_Val("cr.pr.brandNameSuggestion"));
-        driver.findElement(prop.xP_Val("cr.pr.brandNameSuggestion")).click();
+        searcher.selectDropDown(prop.xP_Val("cr.pr.typeDD"), "Good");
+
         driver.findElement(prop.xP_Val("cr.pr.prodNameInput")).sendKeys(productName);
-        driver.findElement(prop.xP_Val("cr.pr.prodCategSelect2")).click();
-        driver.findElement(prop.xP_Val("cr.pr.prodCategInput")).sendKeys(productCategory);
 
-        waiter.waitClickable(prop.xP_Val("cr.pr.getProdCategSuggestion"));
-        driver.findElement(prop.xP_Val("cr.pr.getProdCategSuggestion")).click();
+        searcher.select2(prop.xP_Val("cp.pr.prodCategoryS2"), prop.xP_Val("cp.pr.prodCategoryInput"), productCategory,
+                prop.xP_Val("cp.pr.prodCategSuggest"));
 
-        WebElement vendorSelect1 = driver.findElement(prop.xP_Val("cr.pr.vendorSelect"));
-        Select vendorSelect = new Select(vendorSelect1);
-        vendorSelect.selectByVisibleText(vendor1);
-        vendorSelect.selectByVisibleText(vendor2);
+        searcher.selectDropDown(prop.xP_Val("cr.pr.vendorSelect"), vendor1);
+        searcher.selectDropDown(prop.xP_Val("cr.pr.vendorSelect"), vendor2);
 
-        driver.findElement(prop.xP_Val("cr.pr.costInput")).sendKeys(String.valueOf(cost));
-        driver.findElement(prop.xP_Val("cr.pr.stock")).sendKeys(String.valueOf(prodStock));
+        driver.findElement(prop.xP_Val("cr.pr.costInput")).sendKeys(cost);
 
-        WebElement warehouseSelect = driver.findElement(prop.xP_Val("cr.pr.warehouseDD"));
-        Select selectWarehouse = new Select(warehouseSelect);
-        selectWarehouse.selectByVisibleText(warehouseName);
+        driver.findElement(prop.xP_Val("cr.pr.rrpExc")).click();
+        driver.findElement(prop.xP_Val("cr.pr.rrpExc")).clear();
+        driver.findElement(prop.xP_Val("cr.pr.rrpExc")).sendKeys(rrpExcValue);
 
         driver.findElement(prop.xP_Val("cr.pr.activeCheckBox")).click();
-        driver.findElement(prop.xP_Val("cr.pr.rrpExc")).sendKeys(String.valueOf(rrpExcValue));
+
         waiter.waitClickable(prop.xP_Val("cr.pr.saveButton"));
         driver.findElement(prop.xP_Val("cr.pr.saveButton")).click();
 

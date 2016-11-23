@@ -2,16 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad5e578c-44b1-499d-b7c3-61272da9040d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/StringCropper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/bundle/Bundle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/bundle/CreateBundle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/bundle/JustCreatedBundle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/bundle.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/create_bundle.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/just_created_bundle.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/distriread/autotests/bundle/TestBundle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/distriread/autotests/config/WebDriverConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/distriread/autotests/config/WebDriverConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/distriread/autotests/helpers/Searcher.class" afterPath="$PROJECT_DIR$/target/classes/com/distriread/autotests/helpers/Searcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/distriread/autotests/helpers/UrlSetter.class" afterPath="$PROJECT_DIR$/target/classes/com/distriread/autotests/helpers/UrlSetter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/distriread/autotests/helpers/Waiter.class" afterPath="$PROJECT_DIR$/target/classes/com/distriread/autotests/helpers/Waiter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/distriread/autotests/pages/manufacturer/CreateManufacturer.class" afterPath="$PROJECT_DIR$/target/classes/com/distriread/autotests/pages/manufacturer/CreateManufacturer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/distriread/autotests/pages/manufacturer/Manufacturer.class" afterPath="$PROJECT_DIR$/target/classes/com/distriread/autotests/pages/manufacturer/Manufacturer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/distriread/autotests/pages/product/CreateProduct.class" afterPath="$PROJECT_DIR$/target/classes/com/distriread/autotests/pages/product/CreateProduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/distriread/autotests/pages/product/JustCreatedProduct.class" afterPath="$PROJECT_DIR$/target/classes/com/distriread/autotests/pages/product/JustCreatedProduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/distriread/autotests/pages/product/Product.class" afterPath="$PROJECT_DIR$/target/classes/com/distriread/autotests/pages/product/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/distriread/autotests/product/TestProduct.class" afterPath="$PROJECT_DIR$/target/test-classes/com/distriread/autotests/product/TestProduct.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/config/WebDriverConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/config/WebDriverConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/brand.properties" afterPath="$PROJECT_DIR$/src/main/resources/brand.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/create_brand.properties" afterPath="$PROJECT_DIR$/src/main/resources/create_brand.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/Searcher.java" afterPath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/Searcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/Waiter.java" afterPath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/Waiter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/brand/Brand.java" afterPath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/brand/Brand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/manufacturer/Manufacturer.java" afterPath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/manufacturer/Manufacturer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/CreateProduct.java" afterPath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/CreateProduct.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/JustCreatedProduct.java" afterPath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/JustCreatedProduct.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/Product.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/create_manufacturer.properties" afterPath="$PROJECT_DIR$/src/main/resources/create_manufacturer.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/create_product.properties" afterPath="$PROJECT_DIR$/src/main/resources/create_product.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/just_created_product.properties" afterPath="$PROJECT_DIR$/src/main/resources/just_created_product.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/login.properties" afterPath="$PROJECT_DIR$/src/main/resources/login.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/manufacturer.properties" afterPath="$PROJECT_DIR$/src/main/resources/manufacturer.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/product.properties" afterPath="$PROJECT_DIR$/src/main/resources/product.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/distriread/autotests/manufacturer/TestManufacturer.java" afterPath="$PROJECT_DIR$/src/test/java/com/distriread/autotests/manufacturer/TestManufacturer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/distriread/autotests/product/TestProduct.java" afterPath="$PROJECT_DIR$/src/test/java/com/distriread/autotests/product/TestProduct.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/create_manufacturer.properties" afterPath="$PROJECT_DIR$/target/classes/create_manufacturer.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/create_product.properties" afterPath="$PROJECT_DIR$/target/classes/create_product.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/just_created_product.properties" afterPath="$PROJECT_DIR$/target/classes/just_created_product.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/login.properties" afterPath="$PROJECT_DIR$/target/classes/login.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/manufacturer.properties" afterPath="$PROJECT_DIR$/target/classes/manufacturer.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/product.properties" afterPath="$PROJECT_DIR$/target/classes/product.properties" />
     </list>
     <ignored path="DSTRD_autotests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,31 +65,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manufacturer.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/manufacturer.properties">
+      <file leaf-file-name="PropertyReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/PropertyReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="17">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/product.properties">
+      <file leaf-file-name="TestBundle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/bundle/TestBundle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manufacturer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/manufacturer/Manufacturer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="226">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestManufacturer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/manufacturer/TestManufacturer.java">
+      <file leaf-file-name="CreateBundle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/bundle/CreateBundle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+            <state relative-caret-position="1278">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,61 +99,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_manufacturer.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/create_manufacturer.properties">
+      <file leaf-file-name="JustCreatedBundle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/bundle/JustCreatedBundle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="154">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1306#1307#0" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringCropper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/StringCropper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_product.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/create_product.properties">
+      <file leaf-file-name="CreateBrand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/brand/CreateBrand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            <state relative-caret-position="162">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="just_created_product.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/just_created_product.properties">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+            <state relative-caret-position="229">
+              <caret line="176" column="36" selection-start-line="176" selection-start-column="36" selection-end-line="176" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/login.properties">
+      <file leaf-file-name="just_created_bundle.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/just_created_bundle.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brand.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/brand.properties">
+      <file leaf-file-name="CreateProduct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/CreateProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="89">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_brand.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/create_brand.properties">
+      <file leaf-file-name="JustCreatedProduct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/JustCreatedProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="432">
+              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -160,37 +194,45 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/Waiter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/InfoGetter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/Searcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/PropertyReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/login/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/CreateProduct.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/distriread/autotests/tests/product/TestProduct.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/manufacturer/Manufacturer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/distriread/autotests/product/TestProduct.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/distriread/autotests/vendor/TestVendor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/brand/Brand.java" />
         <option value="$PROJECT_DIR$/src/main/resources/just_created_brand.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/just_createdbrand.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/brand/JustCreatedBrand.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/distriread/autotests/manufacturer/TestVendor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/distriread/autotests/manufacturer/TestManufacturer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/distriread/autotests/brand/TestBrand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/UrlSetter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/manufacturer/CreateManufacturer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/JustCreatedProduct.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/config/WebDriverConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/create_brand.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/brand.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/login.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/create_manufacturer.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/manufacturer.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/brand.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/create_product.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/manufacturer/CreateManufacturer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/distriread/autotests/manufacturer/TestManufacturer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/just_created_product.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/login.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/StringCropper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/JustCreatedProduct.java" />
         <option value="$PROJECT_DIR$/src/main/resources/product.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/InfoGetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/Waiter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/create_product.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/CreateProduct.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/distriread/autotests/product/TestProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/manufacturer/Manufacturer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/brand/Brand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/create_bundle.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/Searcher.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bundle.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/bundle/Bundle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/config/WebDriverConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/just_created_bundle.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/bundle/JustCreatedBundle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/distriread/autotests/bundle/TestBundle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/bundle/CreateBundle.java" />
       </list>
     </option>
   </component>
@@ -243,7 +285,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -319,6 +360,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="manufacturer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DSTRD_autotests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DSTRD_autotests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autotests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -506,6 +577,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DSTRD_autotests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DSTRD_autotests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autotests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="brand" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -572,6 +677,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -581,60 +687,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.TestProduct.testPageTitle (1)">
-    <configuration default="false" name="TestProduct.testPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.distriread.autotests.tests.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DSTRD_autotests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.distriread.autotests.tests.product" />
-      <option name="MAIN_CLASS_NAME" value="com.distriread.autotests.tests.product.TestProduct" />
-      <option name="METHOD_NAME" value="testPageTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestProduct.testCreateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.distriread.autotests.tests.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DSTRD_autotests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.distriread.autotests.tests.product" />
-      <option name="MAIN_CLASS_NAME" value="com.distriread.autotests.tests.product.TestProduct" />
-      <option name="METHOD_NAME" value="testCreateProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestProduct.testPageTitle (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestBundle.testCreateBundle">
+    <configuration default="false" name="TestProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.distriread.autotests.product.*" />
@@ -646,7 +700,111 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.distriread.autotests.product" />
       <option name="MAIN_CLASS_NAME" value="com.distriread.autotests.product.TestProduct" />
-      <option name="METHOD_NAME" value="testPageTitle" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestManufacturer.testDeleteManufacturer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.distriread.autotests.manufacturer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DSTRD_autotests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.distriread.autotests.manufacturer" />
+      <option name="MAIN_CLASS_NAME" value="com.distriread.autotests.manufacturer.TestManufacturer" />
+      <option name="METHOD_NAME" value="testDeleteManufacturer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestBrand.testDeleteBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.distriread.autotests.brand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DSTRD_autotests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.distriread.autotests.brand" />
+      <option name="MAIN_CLASS_NAME" value="com.distriread.autotests.brand.TestBrand" />
+      <option name="METHOD_NAME" value="testDeleteBrand" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestProduct.testSearchingOnProductPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.distriread.autotests.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DSTRD_autotests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.distriread.autotests.product" />
+      <option name="MAIN_CLASS_NAME" value="com.distriread.autotests.product.TestProduct" />
+      <option name="METHOD_NAME" value="testSearchingOnProductPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestBundle.testCreateBundle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.distriread.autotests.bundle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DSTRD_autotests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.distriread.autotests.bundle" />
+      <option name="MAIN_CLASS_NAME" value="com.distriread.autotests.bundle.TestBundle" />
+      <option name="METHOD_NAME" value="testCreateBundle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1024,16 +1182,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestProduct.testPageTitle" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestProduct.testCreateProduct" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestProduct.testPageTitle (1)" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestProduct" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestManufacturer.testDeleteManufacturer" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestBrand.testDeleteBrand" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestProduct.testSearchingOnProductPage" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestBundle.testCreateBundle" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestProduct.testPageTitle (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestProduct.testPageTitle" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestProduct.testCreateProduct" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestBundle.testCreateBundle" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestProduct.testSearchingOnProductPage" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestProduct" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestManufacturer.testDeleteManufacturer" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestBrand.testDeleteBrand" />
       </list>
     </recent_temporary>
   </component>
@@ -1052,48 +1214,52 @@
       <updated>1478508699213</updated>
       <workItem from="1478508703470" duration="35071000" />
       <workItem from="1478606249050" duration="300000" />
-      <workItem from="1478607162388" duration="17508000" />
+      <workItem from="1478607162388" duration="24385000" />
+      <workItem from="1479207273542" duration="3700000" />
+      <workItem from="1479212351826" duration="9389000" />
+      <workItem from="1479457952648" duration="3697000" />
+      <workItem from="1479715931216" duration="69220000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestProduct_testCreateProduct - 2016.11.08 at 11h 32m 21s.xml">
-      <configuration name="TestProduct.testCreateProduct" configurationId="JUnit" />
+    <history-entry file="TestBundle_testCreateBundle - 2016.11.23 at 15h 00m 39s.xml">
+      <configuration name="TestBundle.testCreateBundle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProduct_testCreateProduct - 2016.11.08 at 11h 38m 36s.xml">
-      <configuration name="TestProduct.testCreateProduct" configurationId="JUnit" />
+    <history-entry file="TestBundle_testCreateBundle - 2016.11.23 at 15h 38m 41s.xml">
+      <configuration name="TestBundle.testCreateBundle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProduct_testCreateProduct - 2016.11.08 at 11h 41m 17s.xml">
-      <configuration name="TestProduct.testCreateProduct" configurationId="JUnit" />
+    <history-entry file="TestBundle_testCreateBundle - 2016.11.23 at 15h 45m 39s.xml">
+      <configuration name="TestBundle.testCreateBundle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProduct_testCreateProduct - 2016.11.08 at 11h 41m 59s.xml">
-      <configuration name="TestProduct.testCreateProduct" configurationId="JUnit" />
+    <history-entry file="TestBundle_testCreateBundle - 2016.11.23 at 15h 49m 16s.xml">
+      <configuration name="TestBundle.testCreateBundle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProduct_testCreateProduct - 2016.11.08 at 11h 43m 14s.xml">
-      <configuration name="TestProduct.testCreateProduct" configurationId="JUnit" />
+    <history-entry file="TestBundle_testCreateBundle - 2016.11.23 at 15h 50m 54s.xml">
+      <configuration name="TestBundle.testCreateBundle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProduct_testCreateProduct - 2016.11.08 at 11h 43m 49s.xml">
-      <configuration name="TestProduct.testCreateProduct" configurationId="JUnit" />
+    <history-entry file="TestBundle_testCreateBundle - 2016.11.23 at 16h 15m 44s.xml">
+      <configuration name="TestBundle.testCreateBundle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProduct_testPageTitle - 2016.11.07 at 16h 51m 58s.xml">
-      <configuration name="TestProduct.testPageTitle" configurationId="JUnit" />
+    <history-entry file="TestBundle_testCreateBundle - 2016.11.23 at 16h 19m 48s.xml">
+      <configuration name="TestBundle.testCreateBundle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProduct_testPageTitle - 2016.11.07 at 16h 54m 24s.xml">
-      <configuration name="TestProduct.testPageTitle" configurationId="JUnit" />
+    <history-entry file="TestBundle_testCreateBundle - 2016.11.23 at 16h 22m 55s.xml">
+      <configuration name="TestBundle.testCreateBundle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProduct_testPageTitle - 2016.11.08 at 13h 06m 09s.xml">
-      <configuration name="TestProduct.testPageTitle" configurationId="JUnit" />
+    <history-entry file="TestBundle_testCreateBundle - 2016.11.23 at 16h 24m 54s.xml">
+      <configuration name="TestBundle.testCreateBundle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProduct_testPageTitle_(1) - 2016.11.08 at 14h 41m 01s.xml">
-      <configuration name="TestProduct.testPageTitle (1)" configurationId="JUnit" />
+    <history-entry file="TestBundle_testCreateBundle - 2016.11.23 at 16h 26m 31s.xml">
+      <configuration name="TestBundle.testCreateBundle" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52879000" />
+    <option name="totallyTimeSpent" value="145762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1102,22 +1268,22 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36819637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39701173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23482428" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1158,7 +1324,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/product/TestProduct.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/bundle/CreateBundle.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1167,13 +1347,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/brand/CreateBrand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/brand/TestBrand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/login/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,9 +1374,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,9 +1382,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,7 +1398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1217,9 +1405,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1962">
           <caret line="118" column="48" selection-start-line="118" selection-start-column="48" selection-end-line="118" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1227,10 +1413,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#3557#3558#0" expanded="true" />
-            <element signature="e#3644#3645#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1238,9 +1421,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,9 +1429,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,9 +1437,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,220 +1452,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/CreateProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/dsa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/dsa.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/create_brand.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/brand/TestBrand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/brand/Brand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1415#1416#0" expanded="false" />
-            <element signature="e#1464#1465#0" expanded="false" />
-            <element signature="e#1519#1520#0" expanded="false" />
-            <element signature="e#1577#1578#0" expanded="false" />
-            <element signature="e#1639#1640#0" expanded="false" />
-            <element signature="e#1704#1705#0" expanded="false" />
-            <element signature="e#2028#2029#0" expanded="false" />
-            <element signature="e#2118#2119#0" expanded="false" />
-            <element signature="e#2732#2733#0" expanded="false" />
-            <element signature="e#2817#2818#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/brand/CreateBrand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2315">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1517#1518#0" expanded="false" />
-            <element signature="e#1595#1596#0" expanded="false" />
-            <element signature="e#1648#1649#0" expanded="false" />
-            <element signature="e#1725#1726#0" expanded="false" />
-            <element signature="e#1915#1916#0" expanded="false" />
-            <element signature="e#1991#1992#0" expanded="false" />
-            <element signature="e#2043#2044#0" expanded="false" />
-            <element signature="e#2119#2120#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/manufacturer/CreateManufacturer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/login/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/JustCreatedProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1189#1190#0" expanded="false" />
-            <element signature="e#1272#1273#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1391#1392#0" expanded="false" />
-            <element signature="e#1438#1439#0" expanded="false" />
-            <element signature="e#1520#1521#0" expanded="false" />
-            <element signature="e#1561#1562#0" expanded="false" />
-            <element signature="e#1646#1647#0" expanded="false" />
-            <element signature="e#1695#1696#0" expanded="false" />
-            <element signature="e#1782#1783#0" expanded="false" />
-            <element signature="e#1821#1822#0" expanded="false" />
-            <element signature="e#1901#1902#0" expanded="false" />
-            <element signature="e#1943#1944#0" expanded="false" />
-            <element signature="e#2027#2028#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/product/TestProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/Searcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/Waiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/config/WebDriverConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/PropertyReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="33" column="115" selection-start-line="33" selection-start-column="115" selection-end-line="33" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/InfoGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/UrlSetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/manufacturer/Manufacturer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/manufacturer/TestManufacturer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/brand.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="72">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1501,51 +1476,272 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/create_manufacturer.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/UrlSetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#313#314#0" expanded="false" />
+            <element signature="e#349#350#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/create_product.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/login/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/just_created_product.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/login.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="432">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/manufacturer.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="234">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/create_manufacturer.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/manufacturer/CreateManufacturer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="33" column="67" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/just_created_product.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="73" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/InfoGetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/create_product.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/brand.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/Waiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/manufacturer/Manufacturer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="57" column="72" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/brand/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding>
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/product.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="151">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/product/TestProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/manufacturer/TestManufacturer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/brand/TestBrand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/create_bundle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/Searcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bundle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/config/WebDriverConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/bundle/Bundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/just_created_bundle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/PropertyReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/brand/CreateBrand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/JustCreatedProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/helpers/StringCropper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/CreateProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/product/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="176" column="36" selection-start-line="176" selection-start-column="36" selection-end-line="176" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/bundle/JustCreatedBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/distriread/autotests/bundle/TestBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distriread/autotests/pages/bundle/CreateBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

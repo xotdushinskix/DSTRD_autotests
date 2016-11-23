@@ -2,6 +2,7 @@ package com.distriread.autotests.pages.product;
 
 import com.distriread.autotests.helpers.InfoGetter;
 import com.distriread.autotests.helpers.PropertyReader;
+import com.distriread.autotests.helpers.StringCropper;
 import com.distriread.autotests.helpers.Waiter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -19,6 +20,7 @@ public class JustCreatedProduct {
     private InfoGetter infoGetter;
     protected InputStream inputStream;
     private PropertyReader prop;
+    private StringCropper stringCropper;
     private final String PROP_NAME = "just_created_product.properties";
 
 
@@ -27,6 +29,7 @@ public class JustCreatedProduct {
         this.waiter = new Waiter(driver);
         this.infoGetter = new InfoGetter(driver);
         this.prop = new PropertyReader(inputStream, PROP_NAME);
+        this.stringCropper = new StringCropper();
     }
 
 
@@ -38,14 +41,27 @@ public class JustCreatedProduct {
 
 
 
-    public String getMPN() {
-        return driver.findElement(prop.xP_Val("j.cr.pr.mpnPath")).getText();
+    public String getMPNBasicInfo() {
+        return driver.findElement(prop.xP_Val("j.cr.pr.mpnBasicInfo")).getText();
     }
 
 
 
-    public String getBrand() {
-        return driver.findElement(prop.xP_Val("j.cr.pr.brandPath")).getText();
+    public String getBrandBasicInfo() {
+        return driver.findElement(prop.xP_Val("j.cr.pr.brandBasicInfo")).getText();
+    }
+
+
+
+    public String getCostValueBasicInfo() {
+        String costWithCurrency = driver.findElement(prop.xP_Val("j.cr.pr.costBasicInfo")).getText();
+        return stringCropper.cropString(costWithCurrency, 0, 3);
+    }
+
+
+
+    public String getRRP_ExclTax() {
+        return driver.findElement(prop.xP_Val("j.cr.pr.rrpExclTaxBasicInfo")).getText();
     }
 
 

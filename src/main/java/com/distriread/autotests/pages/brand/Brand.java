@@ -40,6 +40,7 @@ public class Brand {
 
     public void searchSomething(String propIem, String reqValue) {
         waiter.waitClickable(prop.xP_Val("br.searchButtonBrandsPage")).click();
+        driver.findElement(prop.xP_Val(propIem)).clear();
         driver.findElement(prop.xP_Val(propIem)).sendKeys(reqValue);
         driver.findElement(prop.xP_Val("br.searchButtonOnSearchGrid")).click();
     }

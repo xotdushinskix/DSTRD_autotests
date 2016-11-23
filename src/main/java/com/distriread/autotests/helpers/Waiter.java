@@ -27,6 +27,14 @@ public class Waiter {
 
 
 
+    public Boolean elementToBeSelected(By requiredElement) {
+        Boolean someElement = new WebDriverWait(driver, 10).until(ExpectedConditions.
+                elementToBeSelected(requiredElement));
+        return someElement;
+    }
+
+
+
     public boolean waitToVisible(By requiredElement, String text) {
         Boolean someElement = new WebDriverWait(driver, 10).until(ExpectedConditions.textToBe(requiredElement, text));
         return someElement;

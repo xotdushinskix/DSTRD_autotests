@@ -1,6 +1,7 @@
 package com.distriread.autotests.product;
 
 import com.distriread.autotests.config.WebDriverConfig;
+import com.distriread.autotests.helpers.Searcher;
 import com.distriread.autotests.helpers.UrlSetter;
 import com.distriread.autotests.pages.product.CreateProduct;
 import com.distriread.autotests.pages.product.JustCreatedProduct;
@@ -20,6 +21,17 @@ public class TestProduct extends WebDriverConfig {
     private Product product;
     private CreateProduct createProduct;
     private JustCreatedProduct justCreatedProduct;
+
+
+    private String MPN = "23ertre33";
+    private String brandName = "Samson";
+    private String productName = "Pipiya";
+    private String productCategory = "notebooks";
+    private String vendor1 = "AMT Zeltwanger s.r.o.";
+    private String vendor2 = "Amazon";
+    private String cost = "100";
+    private String rrpExclTax = "125";
+
 
 
     @Before
@@ -46,18 +58,15 @@ public class TestProduct extends WebDriverConfig {
     @Test
     public void testCreateProduct() {
         urlSetter.setUrl("http://vr1.bintime.com/product/producttool/addproduct");
-        createProduct.fillRequiredFieldsAndAddProduct("23ertre33", "Samson", "Pipiya", "notebooks", "AMT Zeltwanger s.r.o.",
-                "Amazon", 120, 125, 500, "Distriread Office");
+        createProduct.fillRequiredFieldsAndAddProduct(MPN, brandName, productName, productCategory, vendor1, vendor2,
+                cost, rrpExclTax);
 
         Assert.assertEquals(justCreatedProduct.getNotificationInfo(), "Product successfully added");
-        Assert.assertEquals(justCreatedProduct.getMPN(), "23ertre33");
-        Assert.assertEquals(justCreatedProduct.getBrand(), "Samson");
-        assert (justCreatedProduct.getProductNames().contains("Pipiya"));
-        assert (justCreatedProduct.getWarehouseNames().contains("AMT Zeltwanger s.r.o."));
-        assert (justCreatedProduct.getWarehouseNames().contains("Amazon"));
-        assert (justCreatedProduct.getMPNs().contains("23ertre33"));
-        assert (justCreatedProduct.getPrices().contains(120));
-        Assert.assertEquals(justCreatedProduct.getRRPex(), 125);
+        Assert.assertEquals(justCreatedProduct.getMPNBasicInfo(), MPN);
+        Assert.assertEquals(justCreatedProduct.getBrandBasicInfo(), brandName);
+        Assert.assertEquals(justCreatedProduct.getCostValueBasicInfo(), cost);
+        Assert.assertEquals(justCreatedProduct.getRRP_ExclTax(), rrpExclTax);
+
 
         urlSetter.setUrl("http://vr1.bintime.com/product/producttool/index");
         product.deleteProduct("23ertre33");
@@ -69,14 +78,14 @@ public class TestProduct extends WebDriverConfig {
     @Test
     public void testDeleteProduct() {
         urlSetter.setUrl("http://vr1.bintime.com/product/producttool/addproduct");
-        createProduct.fillRequiredFieldsAndAddProduct("3333www", "Samsung", "Test_delete", "notebooks", "Copaco",
-                "Robin", 150, 160, 170, "Own warehouse №1 - ROBERTO");
+        createProduct.fillRequiredFieldsAndAddProduct(MPN, brandName, productName, productCategory, vendor1,
+                vendor2, cost, rrpExclTax);
 
-        urlSetter.setUrl("https://erp.distriread.com/product/producttool/index");
-        product.deleteProduct("3333www");
+        urlSetter.setUrl("http://vr1.bintime.com/product/producttool/index");
+        product.deleteProduct(MPN);
 
         Assert.assertEquals(product.getPageInfoAfterSearchDeletedProduct(), "No results found.");
-        product.searchProductByMPN("3333www");
+        product.searchProductByMPN(MPN);
         Assert.assertEquals(product.getPageInfoAfterSearchDeletedProduct(), "No results found.");
     }
 
@@ -87,40 +96,41 @@ public class TestProduct extends WebDriverConfig {
     public void testSearchingOnProductPage() {
         urlSetter.setUrl("http://vr1.bintime.com/product/producttool");
 
-        product.searchByProductCategory("AV cables");
-        assert (product.categoryResultsAfterSearch().contains("AV cables"));
+        product.searchByProductCategory("Grid-IT");
+        assert (product.categoryResultsAfterSearch().contains("Grid-IT"));
         product.resetSearching();
 
-        product.searchByManufacturer("Nike");
-        assert (product.manufacturerResultsAfterSearch().contains("Nike"));
-        product.resetSearching();
 
-        product.searchProductByBrand("Canon");
-        assert (product.brandResultsAfterSearch().contains("Canon"));
+
+//        product.searchByManufacturer("");
+//        assert (product.manufacturerResultsAfterSearch().contains(""));
+//        product.resetSearching();
+
+
+
+        product.searchProductByBrand("Ergo");
+        assert (product.brandResultsAfterSearch().contains("Ergo"));
         product.resetSearching();
 
         product.searchProductType("Good");
         assert (product.typeResultAfterSearch().contains("Good"));
         product.resetSearching();
 
-        product.searchProductTitle("Nokia");
-        assert (product.titleResultAfterSearch().contains("Nokia"));
+        product.searchProductTitle("Icarus C014BK");
+        assert (product.titleResultAfterSearch().contains("Icarus"));
         product.resetSearching();
 
-        product.searchProductMPN("90-C1CNX1-S0UAN0YZ");
-        assert (product.mpnResultAfterSearch().contains("90-C1CNX1-S0UAN0YZ"));
+        product.searchProductMPN("EM1010BK");
+        assert (product.mpnResultAfterSearch().contains("EM1010BK"));
         product.resetSearching();
 
-        product.searchByEAN("4948570114122");
-        assert (product.eanResultAfterSearch().contains("4948570114122"));
+        product.searchByEAN("8437009734902");
+        assert (product.eanResultAfterSearch().contains("8437009734902"));
         product.resetSearching();
 
         product.searchByStatus("Not active");
         Assert.assertFalse (product.statusResultAfterSearch("Not active").isEmpty());
     }
-
-
-
 
 
 

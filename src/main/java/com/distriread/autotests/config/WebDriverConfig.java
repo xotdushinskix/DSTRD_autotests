@@ -19,7 +19,8 @@ public class WebDriverConfig {
     public void setUp() throws IOException {
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
-        driver.get("http://dev:q1w2e3r4@vr1.bintime.com/");
+        driver.get("http://dev:q1w2e3r4@vr1.bintime.com/");   //vitalickCopy
+        //driver.get("https://erp.distriread.com");
         Login login = new Login(driver);
         login.loginFunc();
     }

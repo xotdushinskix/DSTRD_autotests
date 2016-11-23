@@ -19,6 +19,8 @@ public class TestManufacturer extends WebDriverConfig{
     protected Manufacturer manufacturer;
     private CreateManufacturer createManufacturer;
 
+
+
     @Before
     public void setUp() throws IOException {
         super.setUp();
@@ -52,9 +54,6 @@ public class TestManufacturer extends WebDriverConfig{
     @Test
     public void testCreateManufacturer() {
         urlSetter.setUrl("http://vr1.bintime.com/manufacturer/create");
-
-        createManufacturer = new CreateManufacturer(driver);
-        manufacturer = new Manufacturer(driver);
 
         createManufacturer.fillFieldAndSaveNewManufacturer("Delopaqed111", "tes_desc");
         Assert.assertEquals(manufacturer.getNotificationAfterCreate(), "Manufacturer was successfully saved.");

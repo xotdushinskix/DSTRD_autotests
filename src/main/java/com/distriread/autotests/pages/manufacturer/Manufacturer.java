@@ -18,7 +18,7 @@ public class Manufacturer {
     private Waiter waiter;
     private InfoGetter infoGetter;
     protected InputStream inputStream;
-    private final String PROP_NAME = "";
+    private final String PROP_NAME = "manufacturer.properties";
     private PropertyReader prop;
 
 
@@ -55,6 +55,7 @@ public class Manufacturer {
 
     public void searchingByManufacturerName(String manufacturerName) {
         waiter.waitClickable(prop.xP_Val("manuf.searchButtonManufac")).click();
+        driver.findElement(prop.xP_Val("manuf.manufNameInput")).clear();
         driver.findElement(prop.xP_Val("manuf.manufNameInput")).sendKeys(manufacturerName);
         driver.findElement(prop.xP_Val("manuf.searchButtonOnSearchGird")).click();
     }

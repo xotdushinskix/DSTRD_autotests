@@ -86,7 +86,7 @@ public class Product {
 
 
     public List<WebElement> statusResultAfterSearch(String status) {
-        searcher.selectDropdown(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.statusSD"), status);
+        searcher.searchButtonAndSelectDropdown(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.statusSD"), status);
         List<WebElement> elements = null;
         if (status.equals("Active")) {
             elements =  driver.findElements(prop.xP_Val("pr.activeStatuses"));
@@ -112,11 +112,13 @@ public class Product {
 
 
 
+
     public void searchByProductCategory(String category) {
-        searcher.select2Search(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.prodCategoryDD"),
+        searcher.select2(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.prodCategoryDD"),
                 prop.xP_Val("pr.inputField"), prop.xP_Val("pr.categorySuggestion"),
                 prop.xP_Val("pr.searchOnSearchGrid"), category);
     }
+
 
 
 
@@ -124,63 +126,65 @@ public class Product {
         waiter.waitClickable(prop.xP_Val("pr.searchButton")).click();
         driver.findElement(prop.xP_Val("pr.mpnDD")).click();
         driver.findElement(prop.xP_Val("pr.inputField")).sendKeys(mpn);
-        try {
-            driver.findElement(prop.xP_Val("pr.mpnSuggestion")).click();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        driver.findElement(prop.xP_Val("pr.mpnSuggestion")).click();
         driver.findElement(prop.xP_Val("pr.searchOnSearchGrid")).click();
     }
 
 
 
+
     public void searchByManufacturer(String manufacturerName) {
-        searcher.select2Search(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.manufacturerDD"),
+        searcher.select2(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.manufacturerDD"),
                 prop.xP_Val("pr.inputField"), prop.xP_Val("pr.manufacturerSuggestion"), prop.xP_Val("pr.searchOnSearchGrid"),
                 manufacturerName);
     }
 
 
 
+
     public void searchProductByBrand(String brandName) {
-        searcher.select2Search(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.brandSelect2"), prop.xP_Val("pr.inputField"),
+        searcher.select2(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.brandSelect2"), prop.xP_Val("pr.inputField"),
                 prop.xP_Val("pr.prodSuggestion"), prop.xP_Val("pr.searchOnSearchGrid"), brandName);
     }
 
 
 
+
     public void searchProductType(String prodType) {
-        searcher.selectDropdown(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.typeDD"), prodType);
+        searcher.searchButtonAndSelectDropdown(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.typeDD"), prodType);
         driver.findElement(prop.xP_Val("pr.searchOnSearchGrid")).click();
     }
 
 
 
     public void searchProductTitle(String titleName) {
-        searcher.select2Search(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.titleDD2"), prop.xP_Val("pr.inputField"),
+        searcher.select2(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.titleDD2"), prop.xP_Val("pr.inputField"),
                 prop.xP_Val("pr.titleSuggestion"), prop.xP_Val("pr.searchOnSearchGrid"), titleName);
     }
 
 
 
+
     public void searchProductMPN(String mpn) {
-        searcher.select2Search(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.mpnDD"), prop.xP_Val("pr.inputField"),
+        searcher.select2(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.mpnDD"), prop.xP_Val("pr.inputField"),
                 prop.xP_Val("pr.mpnSuggestion"), prop.xP_Val("pr.searchOnSearchGrid"), mpn);
     }
 
 
 
     public void searchByEAN(String ean) {
-        searcher.select2Search(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.eanDD2"), prop.xP_Val("pr.inputField"),
+        searcher.select2(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.eanDD2"), prop.xP_Val("pr.inputField"),
                 prop.xP_Val("pr.eanSuggestion"), prop.xP_Val("pr.searchOnSearchGrid"), ean);
     }
 
 
 
+
     public void searchByStatus(String status) {
-        searcher.selectDropdown(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.statusSD"), status);
+        searcher.searchButtonAndSelectDropdown(prop.xP_Val("pr.searchButton"), prop.xP_Val("pr.statusSD"), status);
         driver.findElement(prop.xP_Val("pr.searchOnSearchGrid")).click();
     }
+
 
 
 
@@ -191,9 +195,11 @@ public class Product {
 
 
 
+
     public String getPageInfoAfterSearchDeletedProduct() {
         waiter.waitToVisible(prop.xP_Val("pr.noResultFoundAfterDelete"), "No results found.");
         return driver.findElement(prop.xP_Val("pr.noResultFoundAfterDelete")).getText();
     }
+
 
 }
